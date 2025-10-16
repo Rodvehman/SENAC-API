@@ -1,15 +1,13 @@
 <?php
     $url = "https://brasilapi.com.br/api/cep/v1/04815290";
 
-    $datajson = file_get_contents($url);
+    $resposta = file_get_contents($url);
 
-    $dados = json_decode($datajson, TRUE);
-
-    var_dump($dados);
+    $dados = json_decode($resposta, true);
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,9 +15,11 @@
 </head>
 <body>
     <h1>CEP</h1>
-    <form action="">
-        <label for="">CEP</label>
-        <input type="text"></input>
-    </form>
+    <p>CEP: <?=$dados['cep']?></p>
+    <p>Endereço: <?=$dados['street']?></p>
+    <p>Bairro: <?=$dados['neighborhood']?></p>
+    <p>Cidade: <?=$dados['city']?></p>
+    <p>Estado: <?=$dados['state']?></p>
+
 </body>
 </html>
