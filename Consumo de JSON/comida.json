@@ -1,10 +1,17 @@
 {
     "comidas" : { 
-        "Feijoada" : {
-            "nome" : "Feijoada",
-            "ingredientes" : "Feijão, Paio",
-            "origem" : "Brasil",
-            "nutricao" : "proteínas"
-        }
+            "feijoada" : {
+                "nome" : "Feijoada",
+                "ingredientes" : "Feijão, Paio, Bacon",
+                "origem" : "Brasil",
+                "nutricao" : "proteínas"
+            },
+
+            "pastel" : {
+                "nome" : "Pastel de Carne",
+                "ingredientes" : "farinha, água, carne",
+                "origem" : "Brasil",
+                "nutricao" : "prote"
+            }
     }
 }

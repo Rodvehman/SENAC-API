@@ -22,7 +22,7 @@
             echo json_encode($pacoca_coco);
 
             break;
-        default:
+        default:    
             echo json_encode($pacocas); 
             break;
     }
