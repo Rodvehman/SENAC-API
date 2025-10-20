@@ -1,25 +1,32 @@
 <?php
-    $url = "https://brasilapi.com.br/api/cep/v1/04815290";
 
-    $resposta = file_get_contents($url);
+// Estruturando uma API
 
-    $dados = json_decode($resposta, true);
+    // Cabeçalho da API
+    // header("Content-Type: application/json; charset: UTF-8");
+    // header("Access-Control-Alow-Origin: *");
+
+    // Sistemas do Serviço Web
+
+    // Leitura de arquivo JSON e armazenando em Array Variável.
+    $pacocas = json_decode(file_get_contents("pacoca.json"), true);
+
+    if (false){
+        $pacocas['paçocas']['Paçoca de Mel']['nome'] = "Paçoca de Mel";
+        $pacocas['paçocas']['Paçoca de Mel']['tipo'] = "Doce";
+        $pacocas['paçocas']['Paçoca de Mel']['origem'] = "Irlanda";
+        $pacocas['paçocas']['Paçoca de Mel']['nutrientes'] = "Nenhum";
+    }
+
+    function salvar_dados($variavel){
+    // Salva dados no arquivo
+    file_put_contents('pacoca.json', json_encode($pacocas, JSON_PRETTY_PRINT));
+    }
+    
+    // echo $pacocas['paçocas']['Paçoca de Mel']['nome'];
+    // echo $pacocas['paçocas']['Paçoca de Côco']['nome'];
+    
+    // Saída da API
+    
+    // echo json_encode($alunos); 
 ?>
-
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consulta de CEP</title>
-</head>
-<body>
-    <h1>CEP</h1>
-    <p>CEP: <?=$dados['cep']?></p>
-    <p>Endereço: <?=$dados['street']?></p>
-    <p>Bairro: <?=$dados['neighborhood']?></p>
-    <p>Cidade: <?=$dados['city']?></p>
-    <p>Estado: <?=$dados['state']?></p>
-
-</body>
-</html>
