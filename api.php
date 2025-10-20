@@ -1,10 +1,9 @@
 <?php
-
 // Estruturando uma API
 
     // Cabeçalho da API
-    // header("Content-Type: application/json; charset: UTF-8");
-    // header("Access-Control-Alow-Origin: *");
+    header("Content-Type: application/json; charset: UTF-8");
+    header("Access-Control-Alow-Origin: *");
 
     // Sistemas do Serviço Web
 
@@ -23,8 +22,8 @@
     }
 
     function salvar_dados($variavel){
-    // Salva dados no arquivo
-    file_put_contents('pacoca.json', json_encode($pacocas, JSON_PRETTY_PRINT));
+        // Salva dados no arquivo
+        file_put_contents('pacoca.json', json_encode($pacocas, JSON_PRETTY_PRINT));
     }
 
     // echo $pacocas['paçocas']['Paçoca de Mel']['nome'];
@@ -32,5 +31,5 @@
     
     // Saída da API
     
-    // echo json_encode($alunos); 
+    echo json_encode($alunos); 
 ?>
