@@ -1,0 +1,10 @@
+{
+    "comidas" : { 
+        "Feijoada" : {
+            "nome" : "Feijoada",
+            "ingredientes" : "Feijão, Paio",
+            "origem" : "Brasil",
+            "nutricao" : "proteínas"
+        }
+    }
+}
