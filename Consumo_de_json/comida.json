@@ -1,0 +1,94 @@
+{
+    "comida": {
+        "feijoada": {
+            "nome": "Feijoada",
+            "ingredientes": "Feijão preto, paio, bacon, linguiça, carne seca",
+            "origem": "Brasil",
+            "nutricao": "Proteínas, fibras, ferro"
+        },
+        "pastel": {
+            "nome": "Pastel de Carne",
+            "ingredientes": "Farinha de trigo, água, carne moída, cebola, temperos",
+            "origem": "Brasil",
+            "nutricao": "Proteínas, carboidratos"
+        },
+        "moqueca": {
+            "nome": "Moqueca Baiana",
+            "ingredientes": "Peixe, camarão, leite de coco, azeite de dendê, pimentão, tomate, coentro",
+            "origem": "Brasil",
+            "nutricao": "Proteínas, gorduras saudáveis, vitaminas"
+        },
+        "acaraje": {
+            "nome": "Acarajé",
+            "ingredientes": "Feijão-fradinho, cebola, sal, azeite de dendê, camarão seco",
+            "origem": "Brasil",
+            "nutricao": "Proteínas, carboidratos, gorduras"
+        },
+        "pao_de_queijo": {
+            "nome": "Pão de Queijo",
+            "ingredientes": "Polvilho azedo, queijo minas, ovos, leite, óleo",
+            "origem": "Brasil",
+            "nutricao": "Proteínas, carboidratos, cálcio"
+        },
+        "vatapa": {
+            "nome": "Vatapá",
+            "ingredientes": "Pão amanhecido, camarão seco, leite de coco, azeite de dendê, amendoim, castanha de caju",
+            "origem": "Brasil",
+            "nutricao": "Proteínas, gorduras, carboidratos"
+        },
+        "tacaca": {
+            "nome": "Tacacá",
+            "ingredientes": "Tucupi, goma de mandioca, jambu, camarão seco, pimenta",
+            "origem": "Brasil",
+            "nutricao": "Proteínas, carboidratos, vitaminas"
+        },
+        "bobozinho_de_camarao": {
+            "nome": "Bobó de Camarão",
+            "ingredientes": "Camarão, mandioca, leite de coco, azeite de dendê, tomate, coentro",
+            "origem": "Brasil",
+            "nutricao": "Proteínas, carboidratos, gorduras saudáveis"
+        },
+        "brigadeiro": {
+            "nome": "Brigadeiro",
+            "ingredientes": "Leite condensado, chocolate em pó, manteiga, granulado",
+            "origem": "Brasil",
+            "nutricao": "Carboidratos, gorduras, cálcio"
+        },
+        "tapioca": {
+            "nome": "Tapioca",
+            "ingredientes": "Goma de mandioca, recheio (queijo, coco, carne seca ou doce)",
+            "origem": "Brasil",
+            "nutricao": "Carboidratos, proteínas (dependendo do recheio)"
+        },
+        "coxinha": {
+            "nome": "Coxinha de Galinha",
+            "ingredientes": "Farinha de trigo, frango desfiado, caldo de galinha, cebola, temperos",
+            "origem": "Brasil",
+            "nutricao": "Proteínas, carboidratos"
+        },
+        "baião_de_dois": {
+            "nome": "Baião de Dois",
+            "ingredientes": "Arroz, feijão de corda, carne seca, queijo coalho, bacon",
+            "origem": "Brasil",
+            "nutricao": "Proteínas, carboidratos, fibras"
+        },
+        "escondidinho": {
+            "nome": "Escondidinho de Carne Seca",
+            "ingredientes": "Mandioca, carne seca, queijo, cebola, manteiga",
+            "origem": "Brasil",
+            "nutricao": "Proteínas, carboidratos, cálcio"
+        },
+        "farofa": {
+            "nome": "Farofa",
+            "ingredientes": "Farinha de mandioca, manteiga, cebola, bacon, ovos",
+            "origem": "Brasil",
+            "nutricao": "Carboidratos, gorduras"
+        },
+        "quindim": {
+            "nome": "Quindim",
+            "ingredientes": "Gema de ovo, açúcar, coco ralado, manteiga",
+            "origem": "Brasil",
+            "nutricao": "Carboidratos, gorduras, proteínas"
+        }
+    }
+}
