@@ -27,7 +27,7 @@
         $chave_acesso = json_decode(file_get_contents("php://input"), true);
         
         if($chave_acesso['codigo'] === 'ABCDE1234'){
-            echo json_encode("A mensagem secreta é:: Não exite mensagem secreta!");
+            echo json_encode("A mensagem,".$chave_acesso['nome'].", secreta é:: Não exite mensagem secreta!");
         } else {
             echo json_encode("Chave de acesso negada");
         }
