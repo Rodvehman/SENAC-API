@@ -1,7 +1,12 @@
 <?php
 
-    $url = "http://http://localhost/SENAC-API/exercicios/cafe1/cafe_um.php";
+    $url = "http://localhost/SENAC-API/exercicios/cafe1/cafe_um_api.php";
 
+    
+    $mensagem = [
+        'informacao' => 'critica'
+    ];
+    
     $estrututa_http = [
         'http' => [
             'method' => 'POST',

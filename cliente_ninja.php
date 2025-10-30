@@ -11,8 +11,8 @@
             'method' => 'POST',
             'header' => 'Content-Type: application/json\r\n',
             'content' => json_encode($chave_ninja)
-        ]
-        ];
+            ]
+    ];
 
     $contexto = stream_context_create($estrutura_http);
 
