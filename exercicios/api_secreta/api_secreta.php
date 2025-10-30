@@ -24,13 +24,16 @@
             break;
     }
 
+    $opcao_metodo = $metodo;
+
+    var_dump($opcao_metodo);
     function verificarMetodo(){
 
+        var_dump($metodo);
         $pcao_metodo = json_decode(file_get_contents('php://input'), true);
         $texto_padrao = "Método utilizado: ";
         $tipo_metodo = ['GET', 'POST', 'PUT', 'DELETE'];
-        $opcao_metodo = $metodo;
-
+     
         if ($opcao_metodo['rest'] === 'GET'){
             echo json_encode($texto_padrao.$tipo_metodo[0]);
         } else if ($opcao_metodo['rest'] === 'POST'){
